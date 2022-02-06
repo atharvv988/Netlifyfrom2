@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netlifyform</title>
+</head>
+<link rel="stylesheet" href="form2netlify.css">
+
+<body>
+   <div id="p1">
+        <div id="p2"> <h1>Contact me for your next project</h1></div>
+        <div id="p3">
+            <form method="post" data-netlify="true"> 
+         <div class="u1">   <label for="fullname">Full name</label>
+                <input type="text" id=fullname> </div>
+          <div class="u1">      <label for="email">Email</label>
+                <input type="email"> </div>
+           <div class="u1"> <label for="">Message</label>
+                <input type="textarea"> </div>
+                <div data-netlify-recaptha="true"></div> 
+                <button  type="submit">submit</button> 
+               </form>
+        </div>
+    </div> 
+
+</body>
+</html>
