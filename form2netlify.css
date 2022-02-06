@@ -1,0 +1,46 @@
+#p1{
+height:400px;
+width: 50%;
+background-color: black;
+display: flex;
+flex-direction: row;
+border-radius: 15px;
+}
+#p2{
+    width: 50%;
+    background-color: #999;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+#p3{
+ width: 50%;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: justify;
+}
+
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-image: url('./a/repeating-chevrons (1).svg');
+}
+form input{
+    background-color: transparent;
+    outline: 0px;
+    border: 0px;
+    border-bottom: 1px solid white;
+}
+button{
+    background-color: yellowgreen;
+    padding:10px 30px 10px 30px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+.u1{
+    margin-bottom: 10px;
+}
